@@ -1,6 +1,6 @@
-# Full-Stack-Software-Dev-Capstone
+# xwvm-fullstack_developer_capstone
 
-## Project Name: Cars Dealership Full-Stack Capstone
+## Project Name: fullstack_developer_capstone
 
 This repository contains the source code for the Cars Dealership Capstone Project, a full-stack web application for a national car retailer in the U.S. The project includes:
 
