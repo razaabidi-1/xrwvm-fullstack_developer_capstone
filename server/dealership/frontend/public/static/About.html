@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Cars Dealership</title>
+    <!-- Bootstrap stylesheet for enhanced styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-3g2QmXf+YkY9+8zv8ZbGQ0Q8Gf5k1z5s6rZ6h9Jk1X2v3Y4a5b6c7d8e9f0g1h2i" crossorigin="anonymous">
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/static/About.html" class="active">About Us</a>
-        <a href="/static/Contact.html">Contact Us</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Cars Dealership</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/static/About.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/static/Contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <main>
-        <h1>About Us</h1>
-        <img src="/static/team.jpg" alt="Team Photo" style="width:300px;">
-        <ul>
+    <main class="container my-4">
+        <h1 class="mb-3">About Us</h1>
+        <!-- Replaced placeholder with a realistic team photo from Unsplash; replace with a local image at /static/team_real.jpg if desired -->
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=6a5b7a2f1c3d4e5f6a7b8c9d0e1f2a3b" alt="Team Photo" class="img-fluid rounded mb-3" style="max-width:480px;">
+        <ul class="list-unstyled">
             <li><strong>Jane Doe</strong> - Project Manager - jane@example.com</li>
             <li><strong>John Smith</strong> - Lead Developer - john@example.com</li>
             <li><strong>Emily Brown</strong> - UI/UX Designer - emily@example.com</li>

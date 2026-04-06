@@ -1,4 +1,4 @@
-# xwvm-fullstack_developer_capstone
+# xrwvm-fullstack_developer_capstone
 
 ## Project Name: fullstack_developer_capstone
 
@@ -8,5 +8,5 @@ This repository contains the source code for the Cars Dealership Capstone Projec
 - React frontend (dealer listing, review submission, registration, login, About/Contact static pages)
 - Docker, CI/CD with GitHub Actions, and deployment-ready configuration
 
-Repository: Full-Stack-Software-Dev-Capstone
-Project: Cars Dealership Full-Stack Capstone
+Repository: xrwvm-fullstack_developer_capstone
+Project: fullstack_developer_capstone
